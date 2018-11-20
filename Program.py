@@ -1,5 +1,5 @@
 from GreetingHelper import GreetingHelper
-from Ngram import TextMapper,OneGramWorker,BiGramWorker
+from ngram import TextMapper,OneGramWorker,BiGramWorker
 
 alphabet = 'абвгдежзийклмнопрстуфхцчшщыьэюя'
 alphabetWithSpace = alphabet + ' '
