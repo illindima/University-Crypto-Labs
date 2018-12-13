@@ -15,7 +15,7 @@ class TextMapper():
         with open(path,'r') as file:
             return file.read()
     @staticmethod
-    def cleanFile(data,space=False):
+    def cleanFile(data):
         data = data.lower()
 
         cleaned = ''
@@ -105,7 +105,7 @@ class BiGramWorker():
 
         textWidth = len(self.text)
 
-        for step in range(0,textWidth - 1):
+        for step in range(0,textWidth - 1,2):
 
             currentBiGram = self.text[step] + self.text[step + 1]
 
