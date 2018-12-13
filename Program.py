@@ -1,4 +1,3 @@
-from GreetingHelper import GreetingHelper
 from Ngram import TextMapper,OneGramWorker,BiGramWorker
 
 alphabet = 'абвгдежзийклмнопрстуфхцчшщыьэюя'
